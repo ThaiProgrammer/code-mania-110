@@ -8,11 +8,6 @@ body {
 
 a {}
 
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
 /* Event info */
 #event-info {
     background-color: black;
@@ -53,7 +48,10 @@ ul {
 
 #sessions__heading {}
 
-.sessions__list {}
+.sessions__list {
+  list-style: none;
+  padding-left: 0;
+}
 
 .sessions__list>li {}
 
