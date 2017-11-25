@@ -65,3 +65,6 @@ $git merge <branch-name>
 ## Step 4 Pull Request
 
 click send Pull Request button on your GitHub
+
+# Demo
+You can view the website at [thaiprogrammer.github.io/code-mania-110](https://thaiprogrammer.github.io/code-mania-110/)
