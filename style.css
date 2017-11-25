@@ -2,7 +2,7 @@
 html {
 }
 body {
-    
+    font-family: 'Kanit', sans-serif;
 }
 a {
 }
@@ -20,6 +20,7 @@ a {
     padding: 20px;
 }
 #event-info__title {
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 40px;
     padding: 0;
     margin: 0;
