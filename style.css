@@ -1,4 +1,5 @@
 /* Global */
+
 html {
     background: -webkit-linear-gradient(top, orange , yellow, green, cyan, blue, violet);
     background: -o-linear-gradient(bottom, orange, yellow, green, cyan, blue, violet);
@@ -6,47 +7,67 @@ html {
     background: linear-gradient(to bottom, orange , yellow, green, cyan, blue, violet);
     background-attachment: fixed;
 }
+
 body {
+  margin: 0;
 }
-a {
-}
+
+a {}
 
 /* Event info */
 #event-info {
+    background-color: black;
+    color: #fff;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    padding: 20px;
 }
 #event-info__title {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
 }
 #event-info__tagline {
+    padding: 0 20px;
+    margin: 0;
 }
 #event-info__date {
+    padding: 0 20px;
+    margin: 0;
 }
 #event-info__place {
+    padding: 0 20px;
+    margin: 0;
 }
 
 /* Event description */
-#event-description {
-}
+
+#event-description {}
 
 /* Sessions */
-#sessions {
-}
-#sessions__heading {
-}
-.sessions__list {
-}
-.sessions__list > li {
-}
+
+#sessions {}
+
+#sessions__heading {}
+
+.sessions__list {}
+
+.sessions__list>li {}
 
 /* Session */
-.session-time {
-}
-.session-item {
-}
-.session-item__room {
-}
-.session-item__speaker {
-}
-.session-item__title {
-}
-.session-item__description {
-}
+
+.session-time {}
+
+.session-item {}
+
+.session-item__room {}
+
+.session-item__speaker {}
+
+.session-item__title {}
+
+.session-item__description {}
