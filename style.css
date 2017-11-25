@@ -2,8 +2,11 @@
 html {
 }
 body {
+    font-family: 'Kanit';
+    background-color: green;
 }
 a {
+    font-family: 'Kanit'
 }
 
 /* Event info */
