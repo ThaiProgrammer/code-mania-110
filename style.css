@@ -16,7 +16,12 @@ a {}
 section {
     margin: 0 auto;
     width: 1140px;
+  margin: 0;
+  background: black;
+  color: #fff;
 }
+
+a {}
 
 
 /* Event info */
@@ -24,11 +29,13 @@ section {
 #event-info {
     background-color: black;
     color: #fff;
-    color: rgba(255, 255, 255, 1);
+
+    color: rgba(255,255,255,1);
     text-align: center;
     text-overflow: clip;
     white-space: pre;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+
     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     padding: 20px;
 }
@@ -83,4 +90,6 @@ section {
 
 .session-item__title {}
 
+
 .session-item__description {}
+
