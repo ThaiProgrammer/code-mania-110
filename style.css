@@ -1,7 +1,18 @@
 /* Global */
+@keyframes bg-color {
+	0% {
+		background-color: #afff33;
+	}
+	100% {
+		background-color: #31f5c0;
+	}
+}
+
 html {
+
 }
 body {
+	animation: bg-color 5s infinite;
 }
 a {
 }
