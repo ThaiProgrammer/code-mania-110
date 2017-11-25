@@ -10,7 +10,9 @@ a {
 #event-info {
 }
 #event-info__title {
+ text-align: center;
 }
+
 #event-info__tagline {
 }
 #event-info__date {
