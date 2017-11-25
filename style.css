@@ -184,3 +184,10 @@ master
   text-align: center;
   margin-top: 80px;
 }
+
+footer {
+    text-align: center;
+    background: #6b6b6b;
+    color: #e3e3e3;
+    padding: 20px;
+}
