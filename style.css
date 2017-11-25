@@ -22,7 +22,9 @@ a {}
 
 /* Event description */
 
-#event-description {}
+#event-description {
+  color: #fff;
+}
 
 /* Sessions */
 
