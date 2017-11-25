@@ -135,6 +135,18 @@ body {
 
 .session-item__description {}
 
+master
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
 #sponsors-list {
   display: flex;
   justify-content: space-between;
