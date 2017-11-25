@@ -72,7 +72,9 @@ body {
 
 /* Event description */
 #event-description {
-    /*background: #fff;*/
+    margin: 20px;
+    color: #fff;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 5px #fff;
     width: 48%;
     padding: 0 3rem 3rem 2rem;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
@@ -101,9 +103,6 @@ body {
 .sessions__list > li {
   border: 1px solid;
   padding: 10px 0;
-}
-#event-description {
-    margin: 20px;
 }
 
 /* Sessions */
