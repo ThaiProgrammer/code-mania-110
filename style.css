@@ -41,6 +41,10 @@ a {
 }
 .session-item__speaker {
 }
+.session-item__speaker_image {
+    width: 100px;
+    height: 100px;
+}
 .session-item__title {
 }
 .session-item__description {
