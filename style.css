@@ -71,6 +71,52 @@ body {
   height: 100px;
 }
 
+.sessions__list {
+  width: 100%;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sessions__list:before,
+.sessions__list:after {
+  display: block;
+  border: 1px solid #000;
+  border-bottom: 0;
+  width: 48%;
+  padding-bottom: 10px;
+}
+
+.sessions__list:before {
+  content: 'เวลา';
+  border-right: 0;
+  text-align: center;
+}
+
+.sessions__list:after {
+  content: 'รายการ';
+  position: absolute;
+  top: 0;
+  left: 48%;
+  margin-left: 1px;
+  text-align: left;
+}
+
+.sessions__list > li {
+  text-align: center;
+  width: 48%;
+  border: 1px solid #000;
+  margin-bottom: -1px;
+  height: 120px;
+}
+
+.sessions__list > li:nth-child(even) {
+  text-align: left;
+  margin-left: -1px;
+}
+
+
 .container {
   width: 960px;
   margin: 0 auto;
@@ -115,56 +161,6 @@ footer {
   background: #6b6b6b;
   color: #e3e3e3;
   padding: 20px;
-}
-
-.sessions_section ul {
-  width: 100%;
-  position: relative;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.sessions_section ul:before,
-.sessions_section ul:after {
-  display: block;
-  border: 1px solid #000;
-  border-bottom: 0;
-  width: 48%;
-  padding-bottom: 10px;
-}
-
-.sessions_section ul:before {
-  content: 'เวลา';
-  border-right: 0;
-  text-align: center;
-}
-
-.sessions_section ul:after {
-  content: 'รายการ';
-  position: absolute;
-  top: 0;
-  left: 48%;
-  margin-left: 1px;
-  text-align: left;
-}
-
-.sessions_section li {
-  text-align: center;
-  width: 48%;
-  float: left;
-  border: 1px solid #000;
-  margin-bottom: -1px;
-  height: 120px;
-}
-
-.sessions_section li:nth-child(even) {
-  text-align: left;
-  margin-left: -1px;
-}
-
-.sessions_section li>h3 {
-  margin-top: 0;
 }
 
 #event-info__tagline,
