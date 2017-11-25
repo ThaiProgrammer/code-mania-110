@@ -50,11 +50,22 @@ a {}
 
 .sessions__list {}
 
-.sessions__list>li {}
+.sessions__list>li {
+    list-style: none;
+    border: 1px #000 solid;
+}
 
 /* Session */
 
-.session-time {}
+.session-time {
+    background-color: #ffda8e;
+    text-align: center;
+}
+
+.session-item {}
+.session-item {
+    display: inline-block;
+}
 
 .session-item {}
 
