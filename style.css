@@ -1,5 +1,10 @@
 /* Global */
 html {
+    background: -webkit-linear-gradient(top, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(bottom, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(bottom, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to bottom, orange , yellow, green, cyan, blue, violet);
+    background-attachment: fixed;
 }
 body {
 }
