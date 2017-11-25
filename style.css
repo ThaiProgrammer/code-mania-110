@@ -1,41 +1,87 @@
 /* Global */
-html {
-}
+
+html {}
+
 body {
+  margin: 0;
+  background: black;
+  color: #fff;
 }
-a {
-}
+
+a {}
 
 /* Event info */
 #event-info {
+    background-color: black;
+    color: #fff;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    padding: 20px;
 }
 #event-info__title {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
 }
 #event-info__tagline {
+    padding: 0 20px;
+    margin: 0;
 }
 #event-info__date {
+    padding: 0 20px;
+    margin: 0;
 }
 #event-info__place {
+    padding: 0 20px;
+    margin: 0;
 }
 
 /* Event description */
-#event-description {
-}
+
+#event-description {}
 
 /* Sessions */
-#sessions {
-}
-#sessions__heading {
-}
-.sessions__list {
-}
-.sessions__list > li {
-}
+
+#sessions {}
+
+#sessions__heading {}
+
+.sessions__list {}
+
+.sessions__list>li {}
 
 /* Session */
-.session-time {
+
+.session-time {}
+
+.session-item {}
+
+.session-item__room {}
+
+.session-item__speaker {}
+
+.session-item__title {}
+
+.session-item__description {}
+
+#sponsors-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 50px;
 }
-.session-item {
+
+#sprint3r {
+  width: 200px;
+  height: 200px;
+  background: url("http://sprint3r.com/assets/img/sprint3r-cover.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .session-item__room {
 }
