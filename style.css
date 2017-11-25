@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400,500');
 /* Global */
 
 html {}
 
 body {
   margin: 0;
+  font-family: "Kanit";
 }
 
 a {}
