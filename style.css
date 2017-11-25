@@ -65,3 +65,15 @@ a {}
 .session-item__title {}
 
 .session-item__description {}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
