@@ -45,3 +45,9 @@ a {
 }
 .session-item__description {
 }
+footer {
+    text-align: center;
+    background: #6b6b6b;
+    color: #e3e3e3;
+    padding: 20px;
+}
