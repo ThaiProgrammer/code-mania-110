@@ -3,10 +3,11 @@
 html {}
 
 body {
+    background-color: #ff46d7;
+}
+a {
   margin: 0;
 }
-
-a {}
 
 /* Event info */
 #event-info {
