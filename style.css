@@ -4,11 +4,12 @@ html {}
 
 body {
   margin: 0;
-  background: black;
-  color: #fff;
+  border-align : center;
 }
 
 a {}
+
+
 
 /* Event info */
 #event-info {
@@ -52,7 +53,15 @@ a {}
 
 .sessions__list {}
 
-.sessions__list>li {}
+.sessions__list>li {
+    border: 1px  #000000;
+    outline:1; 
+    height:25px; 
+    width: 10px; 
+
+
+
+}
 
 /* Session */
 
@@ -67,19 +76,3 @@ a {}
 .session-item__title {}
 
 .session-item__description {}
-
-#sponsors-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 5px 50px;
-}
-
-#sprint3r {
-  width: 200px;
-  height: 200px;
-  background: url("http://sprint3r.com/assets/img/sprint3r-cover.png");
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
