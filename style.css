@@ -50,7 +50,10 @@ a {}
 
 #sessions__heading {}
 
-.sessions__list {}
+.sessions__list {
+  list-style: none;
+  padding-left: 0;
+}
 
 .sessions__list>li {}
 
