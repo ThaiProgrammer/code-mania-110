@@ -33,6 +33,12 @@ body {
     animation-timing-function: ease-in-out;
 a {}
 
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+ 
+
 /* Event info */
 #event-info {
     background-color: black;
