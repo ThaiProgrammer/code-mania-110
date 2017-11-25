@@ -164,11 +164,19 @@ master
         padding: 10px;
     }
 
+#sponsors {
+  background-color: white;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  margin-top: 80px;
+}
+
 #sponsors-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px 50px;
+  margin: 0 50px;
 }
 
 #sprint3r {
@@ -178,11 +186,6 @@ master
   background-size: 300px;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-#sponsors {
-  text-align: center;
-  margin-top: 80px;
 }
 
 footer {
