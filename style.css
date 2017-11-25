@@ -42,7 +42,7 @@ body {
 /* Event info */
 #event-info {
     background-color: black;
-    color: #fff;
+    color: black;
     color: rgba(255,255,255,1);
     text-align: center;
     text-overflow: clip;
@@ -76,6 +76,9 @@ body {
     color: #fff;
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 5px #fff;
     width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
     padding: 0 3rem 3rem 2rem;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -84,6 +87,8 @@ body {
 
 /* Sessions */
 #sessions {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5%;
     /* margin-top: 5%; */
     /* background: #fff; */
@@ -118,6 +123,7 @@ body {
 .sessions__list {
   list-style: none;
   padding-left: 0;
+  margin-top: 0;
 }
 
 .sessions__list>li {
@@ -128,8 +134,11 @@ body {
 /* Session */
 
 .session-time {
-    background-color: #ffda8e;
     text-align: center;
+    background-color: #9e9e9e;
+    margin-left: -32px;
+    margin-right: -49px;
+    padding: 12px 0px;
 }
 
 .session-item {}
@@ -165,18 +174,32 @@ master
     }
 
 #sponsors {
-  background-color: white;
-  color: #333;
-  padding: 10px;
-  text-align: center;
-  margin-top: 80px;
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+#sponsor-info__title {
+    color: black;
 }
 
 #sponsors-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.sponsors_img {
+    width: 200px;
+    height: 200px;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
 }
 
 #sprint3r {
