@@ -101,11 +101,15 @@ body {
   border: 1px solid;
   padding: 10px 0;
 }
-#event-description {}
+#event-description {
+    margin: 20px;
+}
 
 /* Sessions */
 
-#sessions {}
+#sessions {
+    margin: 40px;
+}
 
 #sessions__heading {}
 
