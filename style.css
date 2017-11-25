@@ -25,6 +25,7 @@ a {}
 #event-description {
   color: #fff;
   text-align: center;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 5px #fff;
 }
 
 /* Sessions */
