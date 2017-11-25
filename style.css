@@ -40,11 +40,15 @@ a {}
 
 /* Event description */
 
-#event-description {}
+#event-description {
+    margin: 20px;
+}
 
 /* Sessions */
 
-#sessions {}
+#sessions {
+    margin: 40px;
+}
 
 #sessions__heading {}
 
