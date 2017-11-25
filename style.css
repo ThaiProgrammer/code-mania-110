@@ -47,3 +47,19 @@ a {}
 .session-item__title {}
 
 .session-item__description {}
+
+#sponsors-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 50px;
+}
+
+#sprint3r {
+  width: 200px;
+  height: 200px;
+  background: url("http://sprint3r.com/assets/img/sprint3r-cover.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
