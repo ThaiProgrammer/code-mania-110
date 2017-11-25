@@ -3,6 +3,7 @@ html {
 }
 body {
 }
+
 a {
 }
 
@@ -44,4 +45,24 @@ a {
 .session-item__title {
 }
 .session-item__description {
+}
+
+/* PC */
+@media (min-width:1600px){
+
+}
+
+/* Ipad */
+@media (min-width:1024px){
+    
+}
+
+/* Ipad  */
+@media (min-width:769px){
+    
+}
+
+/* Mobile */
+@media (min-width:320px){
+    
 }
