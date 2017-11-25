@@ -6,6 +6,10 @@ body {
 a {
 }
 
+.head-logo {
+    width: 12rem;
+}
+
 /* Event info */
 #event-info {
 }
