@@ -8,6 +8,12 @@ body {
 
 a {}
 
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+ 
+
 /* Event info */
 
 #event-info {}
