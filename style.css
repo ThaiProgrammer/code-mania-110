@@ -112,7 +112,9 @@ body {
     margin: 40px;
 }
 
-#sessions__heading {}
+#sessions__heading {
+    background: yellow;
+}
 
 .sessions__list {
   list-style: none;
