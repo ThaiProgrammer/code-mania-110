@@ -31,7 +31,7 @@ body {
     color: black;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.2), 0 0 10px rgba(0,0,0,0.1);
     animation-timing-function: ease-in-out;
-a {}
+}
 
 /* Event info */
 #event-info {
