@@ -8,6 +8,7 @@ a {
 
 /* Event info */
 #event-info {
+    color : red ;
 }
 #event-info__title {
 }
@@ -45,3 +46,4 @@ a {
 }
 .session-item__description {
 }
+
