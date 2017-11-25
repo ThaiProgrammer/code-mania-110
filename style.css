@@ -87,37 +87,30 @@ body {
 
 /* Sessions */
 #sessions {
+    margin: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    /* margin-top: 5%; */
-    /* background: #fff; */
     width: 30%;
-    /* display: inline; */
     padding: 0 3rem 0 2rem;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
     overflow: hidden;
     text-align: center;
-    /* margin: 0 !important; */
-    /* clear: both; */
     margin: 0 auto;
 }
 #sessions__heading {
-  text-align: center;
+    text-align: center;
+    background: yellow;
 }
 .sessions__list > li {
-  border: 1px solid;
-  padding: 10px 0;
+    border: 1px solid;
+    padding: 10px 0;
 }
-
-/* Sessions */
-
-#sessions {
-    margin: 40px;
-}
-
-#sessions__heading {
-    background: yellow;
+.sessions_section {
+    margin-top: 5%;
+    padding: 0 3rem 3rem 2rem;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
 .sessions__list {
@@ -161,7 +154,6 @@ body {
 
 .session-item__description {}
 
-master
 .container {
     width: 960px;
     margin: 0 auto;
@@ -172,6 +164,7 @@ master
         width: 100%;
         padding: 10px;
     }
+}
 
 #sponsors {
     background-color: white;
@@ -216,4 +209,54 @@ footer {
     background: #6b6b6b;
     color: #e3e3e3;
     padding: 20px;
+}
+
+.sessions_section ul {
+  width: 100%;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sessions_section ul:before,
+.sessions_section ul:after {
+  display: block;
+  border: 1px solid black;
+  border-bottom: 0;
+  width: 48%;
+  padding-bottom: 10px;
+}
+
+.sessions_section ul:before{
+  content: 'เวลา';
+  border-right: 0;
+  text-align: center;
+}
+
+.sessions_section ul:after{
+  content: 'รายการ';
+  position: absolute;
+  top: 0;
+  left: 48%;
+  margin-left: 1px;
+  text-align: left;
+}
+
+.sessions_section li{
+  text-align: center;
+  width: 48%;
+  float: left;
+  border: 1px solid black;
+  margin-bottom: -1px;
+  height: 120px;
+}
+
+.sessions_section li:nth-child(even){
+  text-align: left;
+  margin-left: -1px;
+}
+
+.sessions_section li > h3{
+  margin-top: 0;
 }
