@@ -26,6 +26,7 @@ a {
 #sessions {
 }
 #sessions__heading {
+    background: yellow;
 }
 .sessions__list {
 }
