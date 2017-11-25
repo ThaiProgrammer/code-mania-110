@@ -108,7 +108,7 @@ body {
 
 .session-time {
   width: 30%;
-  margin: 1.4em 0;
+  padding: 1em 0;
 }
 
 .session-item,
@@ -121,6 +121,35 @@ body {
   display: block;
   list-style: none;
   padding: 0;
+}
+
+.session-item {
+  padding: 1em 0;
+}
+
+.session-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.session-item__room {
+  display: block;
+  color: #888;
+}
+
+.session-item__speaker_image {
+  float: left;
+}
+
+.session-item__speaker,
+.session-item__title,
+.session-item__description {
+  margin: 0 0 0 96px;
+  display: block;
+}
+
+.session-item__title {
 }
 
 .container {
