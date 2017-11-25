@@ -10,8 +10,10 @@ a {
 #event-info {
 }
 #event-info__title {
+    color:blue
 }
 #event-info__tagline {
+    color:gray
 }
 #event-info__date {
 }
