@@ -125,11 +125,28 @@ body {
 
 .session-item__description {}
 
+#sponsor-info__title {
+    color: black;
+}
+
+#sponsors {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
 #sponsors-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 5px 50px;
+}
+
+.sponsors_img {
+    width: 200px;
+    height: 200px;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
 }
 
 #sprint3r {
