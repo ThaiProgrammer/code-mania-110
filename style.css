@@ -5,6 +5,8 @@ html {}
 body {
 	background-color: #00FF00;
   margin: 0;
+  background: black;
+  color: #fff;
 }
 
 a {}
