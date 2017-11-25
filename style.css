@@ -68,11 +68,18 @@ a {}
 
 .session-item__description {}
 
+#sponsors {
+  background-color: white;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
 #sponsors-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px 50px;
+  margin: 0 50px;
 }
 
 #sprint3r {
