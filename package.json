@@ -1,0 +1,13 @@
+{
+  "name": "code-mania-110",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git://github.com/ThaiProgrammer/code-mania-110.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^6.4.1"
+  }
+}
