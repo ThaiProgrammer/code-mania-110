@@ -13,6 +13,20 @@ body {
   font-style: normal;
 }
 
+#bar {
+  background-color: white;
+  height: 60px;
+}
+
+#bar #logo {
+  background: url(images/logo.png);
+  height: 100%;
+  width: 100px;
+  background-size: auto 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #event-info {
   font-size: 20px;
   background-color: #000;
