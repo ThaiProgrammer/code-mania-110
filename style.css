@@ -191,19 +191,16 @@ body {
 
 .sponsors_img {
   width: 200px;
-  height: 200px;
+  height: 100px;
+  margin-right: 5px;
   background-size: 100% auto!important;
   background-repeat: no-repeat!important;
   background-position: center!important;
 }
 
-#sprint3r {
-  width: 200px;
-  height: 200px;
-  background: url(http://sprint3r.com/assets/img/sprint3r-cover.png);
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
+#section-video {
+  background-color: #111619;
+  padding: 60px 0px;
 }
 
 footer {
